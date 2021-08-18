@@ -19,8 +19,8 @@ cmake --build . --target install
 # 测试环境
 
 * 树梅派 4B 4G; Raspberry Pi OS 64位
-* gcc 10.2.1
-* cmake 3.18.4
+* gcc 8.3.0
+* cmake 3.16.3
 * wiringPi 库 64 位
 * YahBoom 树梅派风扇扩展版
 
