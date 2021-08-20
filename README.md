@@ -11,9 +11,14 @@ git clone https://github.com/IYATT-yx/SmartButlerForRaspberry --depth=1
 ```bash
 cd SmartButlerForRaspberry && mkdir build && cd build
 
-cmake -DCMAKE_BUILD_TYPE=RELEASE ..
+cmake -DCMAKE_BUILD_TYPE=release ..
 
 cmake --build . --target install
+```
+
+重启
+```bash
+sudo reboot now
 ```
 
 # 测试环境
